@@ -6,9 +6,11 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
+    "test:silent": "yarn test --silent",
     "test:ci": "jest --ci"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -17,12 +19,16 @@
     "@testing-library/jest-dom": "5.16.1",
     "@testing-library/react": "12.1.2",
     "@testing-library/user-event": "13.5.0",
+    "@types/benchmark": "^2.1.1",
+    "@types/lodash": "^4.14.182",
     "@types/react": "17.0.38",
     "babel-jest": "27.4.5",
+    "benchmark": "^2.1.4",
     "eslint": "8.5.0",
     "eslint-config-next": "latest",
     "eslint-plugin-testing-library": "5.0.1",
     "jest": "27.4.5",
+    "ts-node": "^10.7.0",
     "typescript": "4.5.4"
   }
 }
